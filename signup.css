@@ -165,6 +165,32 @@ input[type=checkbox] {
     border-right: none;
     border-left: none;
     background-color: #e8e8e8;
+    
+}
+
+@media (min-width: 160rem) {
+    i.fa-times {
+        right: 70rem;
+    }
+}
+
+@media (max-width: 90rem) {
+    i.fa-times {
+        right: 35rem;
+    }
+}
+
+@media (max-width: 64rem) {
+    i.fa-times {
+        right: 22rem;
+    }
+}
+
+@media (max-width: 48rem) {
+
+    i.fa-times {
+        right: 14rem;
+    }
 }
 
 @media (max-width: 31.25rem) {
@@ -181,6 +207,14 @@ input[type=checkbox] {
     .container {
         max-width: 100vw !important;
     }
+
+    .line {
+        width: 20rem;
+    }
+
+     i.fa-times {
+         right: 3rem;
+     }
 }
 
 @media (max-width: 23.4375rem) {
@@ -191,10 +225,18 @@ input[type=checkbox] {
     .form {
         max-width: 300px;
     }
+
+    .line {
+        width: 14.8rem;
+    }
 }
 
 @media (max-width: 20rem) {
     .container {
         max-width: 100vw !important;
     }
+
+     i.fa-times {
+         right: 2rem;
+     }
 }
